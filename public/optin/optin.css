@@ -1,0 +1,6 @@
+.oi { --oi-row-border:#c9d1cd; --oi-note-text:#4a524f; --oi-saved-text:#14622e; --oi-error-text:#9b1c1c; }
+.oi-list { list-style:none; padding:0; margin:12px 0; }
+.oi-list li { padding:10px 0; border-bottom:1px solid var(--oi-row-border); }
+.oi-list label { display:flex; gap:10px; align-items:center; font-weight:normal; margin:0; }
+.oi-list input { width:auto; }
+.oi-note { font-size:.9rem; color:var(--oi-note-text); }
