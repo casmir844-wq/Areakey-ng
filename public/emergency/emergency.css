@@ -1,0 +1,11 @@
+.em { --em-red-alert-bg:#fde8e8; --em-red-alert-edge:#b00020; --em-normal-alert-bg:#e8f1fb; --em-normal-alert-edge:#1a5fa8; --em-disclaimer-bg:#fff6cc; --em-raise-button:#b00020; }
+.em-warn { background:var(--em-disclaimer-bg); padding:8px 10px; border:1px solid #d6c35c; }
+.em-check { display:flex; gap:8px; align-items:center; font-weight:normal; }
+.em-check input { width:auto; }
+#em-raise { background:var(--em-raise-button); }
+#em-nums a { font-weight:bold; font-size:1.2rem; margin-right:8px; }
+.em-list { list-style:none; padding:0; }
+.em-list li { padding:10px; margin-bottom:8px; border-left:6px solid; }
+.em-list li.red { background:var(--em-red-alert-bg); border-color:var(--em-red-alert-edge); }
+.em-list li.normal { background:var(--em-normal-alert-bg); border-color:var(--em-normal-alert-edge); }
+.em-list button { margin:8px 8px 0 0; padding:6px 10px; }
